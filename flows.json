@@ -1,0 +1,1 @@
+[{"id":"7f23f3aa.eac0fc","type":"function","z":"788a6038.711ca","name":"fun","func":"var msg1 = { payload:0 };\nif(msg.payload.ar>5){\n    return msg1;\n}\nelse{\nglobal.set(\"ar\",msg.payload.ar)\n}\nreturn msg;","outputs":1,"noerr":0,"x":156,"y":264,"wires":[["b164d8de.dc8ca8"]]}]
